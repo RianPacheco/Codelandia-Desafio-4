@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap');
+
+/*** RESET DO PROJETO ***/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    text-decoration: none;
+}
+
+/*** CONFIGURANÇÃO DO LAYOUT DO PROJETO ***/
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*** SEÇÃO DA ESQUERDA DO PROJETO ***/
+
+.secao-esquerda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1040px;
+    height: 950px;
+    background: #F7FAFC;
+}
+
+/*** SEÇÃO DIREITA DO PROJETO ***/
+
+.secao-direita{
+    width: 1100px;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.bem-vindo{
+    width: 380px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A202C;
+    padding: 10px;
+}
+
+.faca-login{
+    width: 370px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #1A202C;
+    padding-bottom: 60px;
+}
+
+label{
+    width: 380px;
+    padding: 10px;
+}
+
+input{
+    width: 350px;
+    height: 50px;
+    border: 1px solid #909090;
+    border-radius: 5px;
+}
+
+.radio{
+    width: 15px;
+    height: 15px;
+}
+
+.conteudo-lembrete{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.esqueceu-senha{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #2B6CB0;
+    padding-left: 10px;
+}
+
+.entrar{
+    width: 350px;
+    height: 50px;
+    background: #04C45C;
+    border-radius: 5px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.google{
+    width: 350px;
+    height: 50px;
+    background: #1A202C;
+    border-radius: 5px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;   
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px;
+    cursor: pointer;   
+}
+
+.nao-conta{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1A202C;
+    padding-top: 190px;
+}
+
+@media (max-width:1100px){
+    .secao-esquerda{
+        display: none;
+    }
+}
