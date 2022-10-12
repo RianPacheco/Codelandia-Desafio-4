@@ -14,7 +14,7 @@
 
 ## Preview Mobile
 
-<img src="imagems/Preview-Mobile.PNG">
+<img src="imagens/Preview-Mobile.PNG">
 
 # Tecnologias utilizadas
 
